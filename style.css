@@ -1,0 +1,71 @@
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    background:#222;
+    color:white;
+    padding:10px 20px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin:10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+header{
+    text-align:center;
+    padding:60px;
+    background:#f4f4f4;
+}
+
+section{
+    padding:40px;
+}
+
+.skill{
+    display:inline-block;
+    background:#007BFF;
+    color:white;
+    padding:10px;
+    margin:5px;
+    border-radius:5px;
+}
+
+.project{
+    background:#eee;
+    padding:15px;
+    margin:10px 0;
+}
+
+form input, form textarea{
+    width:100%;
+    padding:10px;
+    margin:5px 0;
+}
+
+button{
+    padding:10px 20px;
+    background:#007BFF;
+    color:white;
+    border:none;
+}
+
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:10px;
+}
